@@ -17,7 +17,7 @@ public class AppManager {
         );
     }
 
-    public void printModels() {
+    public void printNames() {
         for (App app : app) {
             System.out.println("App name: " + app.getName());
         }

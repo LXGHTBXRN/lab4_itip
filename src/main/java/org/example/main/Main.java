@@ -10,7 +10,7 @@ public class Main {
 
         AppManager manager = new AppManager(context);
 
-        manager.printModels();
+        manager.printNames();
 
         ((AnnotationConfigApplicationContext) context).close();
     }
